@@ -12,6 +12,7 @@ interface IFood {
   image: string;
   price: number;
   description: string;
+  available: boolean;
 }
 
 interface IModalEditFood {

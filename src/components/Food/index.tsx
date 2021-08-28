@@ -10,6 +10,7 @@ interface IFood {
   image: string;
   price: number;
   description: string;
+  available: boolean;
 }
 
 interface IFoodProps {
@@ -17,6 +18,7 @@ interface IFoodProps {
   food: IFood;
   handleEditFood: (food: IFood) => void;
   handleDelete: (id: number) => void;
+  key: number;
 }
 
 const Food = (props: IFoodProps): JSX.Element => {
