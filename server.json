@@ -26,11 +26,19 @@
     },
     {
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
-      "name": "Diego",
+      "name": "Diego ddd ",
       "price": "19.90",
-      "description": "LOOOOOO",
+      "description": "LOOOOOOd d dd ",
       "available": false,
       "id": 4
+    },
+    {
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "name": "Moda Italiana",
+      "price": "19.90",
+      "description": "sdasd sddd",
+      "available": true,
+      "id": 5
     }
   ]
 }

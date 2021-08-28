@@ -10,9 +10,7 @@ const Modal = (props: IModal) => {
   const [modalStatus, setModalStatus] = useState(false);
 
   useEffect(() => {
-    if (modalStatus !== props.isOpen) {
-      setModalStatus(props.isOpen);
-    }
+    setModalStatus(props.isOpen);
   }, [props.isOpen]);
 
   return (
